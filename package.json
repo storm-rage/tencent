@@ -1,0 +1,51 @@
+{
+  "name": "beike-website",
+  "version": "1.0.0",
+  "description": "备课官网",
+  "main": "src/main.js",
+  "scripts": {
+    "serve": "cross-env NODE_ENV=develop vue-cli-service serve",
+    "build": "cross-env NODE_ENV=production vue-cli-service build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.1.0",
+    "@vue/cli-plugin-eslint": "^3.1.0",
+    "@vue/cli-service": "^3.1.0",
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "core-js": "^2.6.5",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.1",
+    "element-ui": "^2.8.2",
+    "eslint": "^5.8.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-html": "^4.0.6",
+    "file-loader": "^2.0.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.4.2",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "babel-polyfill": "^6.26.0",
+    "uuid": "^3.3.3",
+    "vuex": "^3.1.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
